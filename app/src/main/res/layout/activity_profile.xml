@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/userName"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Role"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/role"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Designation"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/designation"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Today Sale"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/todaysale"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Today Onboards"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/TodayOnboards"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="TodayTarget"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/TodayTarget"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="WeekSale"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/WeekSale"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="WeekTarget"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/WeekTarget"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="WeekOnabord"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="UserName"
+                android:id="@+id/WeekOnabord"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="MonthSale"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="MonthTarget"
+                android:id="@+id/MonthSale"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="MonthTarget"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="MonthTarget"
+                android:id="@+id/MonthTarget"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="MonthOnaord"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="MonthTarget"
+                android:id="@+id/MonthOnaord"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
